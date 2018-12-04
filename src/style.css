@@ -1,1 +1,15 @@
-/* Acá va tu código */
+img{
+    height: 5%;
+    width: 25%;
+    background-size: cover;
+    background: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: bottom;
+}
+
+body{
+    background-image: url("portadaCypher.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

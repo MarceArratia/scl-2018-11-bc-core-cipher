@@ -4,12 +4,38 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+  <div id="root">
+    <img src="portadaCipher.jpg" alt="" id="imagen">
+    <div style="background-color: rgb(195, 233, 233);">
+      <h1> <center>Bienvenido a Mommy Code<center/></h1>
+      <center><p>Acá podrás descifrar códigos para saber donde ocultó Mami tus tesoros más preciados</p></center>
+      <!--cuadro donde escribe usuario-->
+      <p><center>Ingresa el texto</center></p>
+      <!--onkeyup recoje la información del usuario cuando presiona la tecla-->
+      <center><textarea name="" id="CuadroTexto" onkeyup="mayuscula(this)" cols="35" rows="5"></textarea></center><br>
+      <center><h3>Mami te premiará si sigues las instrucciones</h3></center><br>
+    <!--seleccionar nivel de desfazamiento-->
+    <center>Seleccione nivel de Castigo</center>
+    <!--Ocupo una id para usar DOM-->
+    <center><input type="text" id="desplazamiento"></center><br>
+     <!--class le da colores al boton (bootstrap)-->
+    <center><input type="button" class="btn btn-success" value="Codificar" onclick="codificar()">
+     
+    <input type="button" class="btn btn-warning" value="Decodificar" onclick="decodificar()"></center> <br>  
+  </div>
+    <div  style="height: auto;width: auto; float: left;" >    
+        <center><p>Mensaje Codificado </p></center>    
+      <textarea name="" id="CuadroSalidaC" cols="35" rows="5"></textarea>
+    </div>
+    <div style="height: auto;width: auto;float:right" >
+      <center><p>Mensaje Decodificado</p></center>
+      <textarea name="" id="CuadroSalidaD" cols="35" rows="5"></textarea>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+  </div>
   </body>
 </html>
