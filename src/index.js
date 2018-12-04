@@ -5,7 +5,7 @@ function codificar(){
    //guardo desplazamiento que elige usuario
    let offset= document.getElementById('desplazamiento').value;
    //guardar todo el contenido de cipher
-   console.log(offset,strng);
+  
    let paso= cipher.encode(strng,offset);
 
    //    root.innerHTML = cipher.encode(texto,offset)
@@ -18,7 +18,7 @@ function decodificar(){
    let offsetD=document.getElementById('desplazamiento').value;
    //guardar contenido de cipher
    let pasoD= cipher.decode(strngD,offsetD);
-   console.log(pasoD);
+  
    //root.innerHTML = cipher.decode(texto,offset)
    document.getElementById('CuadroSalidaD').innerHTML=pasoD;
 
