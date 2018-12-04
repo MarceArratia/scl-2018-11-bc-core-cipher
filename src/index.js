@@ -23,17 +23,6 @@ function decodificar(){
    document.getElementById('CuadroSalidaD').innerHTML=pasoD;
 
 }
-//e carga como offset y strng, recibe informacion
-function mayuscula(e){
-   e.value=e.value.toUpperCase();
-  //evalúa codigo ascii de tecla ingresada  Ñ para cambiarla por N
-   if(e.value.charCodeAt()==209){
-e.value="N";
-
-   }
-   //
-
-}
 
 
     
