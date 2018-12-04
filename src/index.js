@@ -9,6 +9,7 @@ function codificar(){
    let paso= cipher.encode(strng,offset);
 
    //    root.innerHTML = cipher.encode(texto,offset)
+   document.getElementById('divcodificado').style="display:block;float: center; ";
    document.getElementById('CuadroSalidaC').innerHTML=paso;
 }
 function decodificar(){
@@ -18,7 +19,7 @@ function decodificar(){
    let offsetD=document.getElementById('desplazamiento').value;
    //guardar contenido de cipher
    let pasoD= cipher.decode(strngD,offsetD);
-  
+   document.getElementById('divdecodificado').style="display:block;float: center; ";
    //root.innerHTML = cipher.decode(texto,offset)
    document.getElementById('CuadroSalidaD').innerHTML=pasoD;
 
