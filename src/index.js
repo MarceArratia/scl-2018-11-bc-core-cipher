@@ -15,6 +15,7 @@ function codificar(){
    //document.getElementById('divcodificado').style="display:block;float: center; ";
    document.getElementById('CuadroSalidaC').innerHTML=paso;
 }
+codificar();
 function decodificar(){
    //guadar valor de cuadro que usuario digita para descifrar
    let strngD= document.getElementById('CuadroTexto').value;
@@ -28,7 +29,7 @@ function decodificar(){
    document.getElementById('CuadroSalidaD').innerHTML=pasoD;
 
 }
-
+decodificar();  
 
     
 

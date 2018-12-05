@@ -47,7 +47,7 @@ else{
     //transforma ascii a numero entero (parseInt)
 //se resta el desplazamiento para decodificar
 ascii=srngD[i].toUpperCase().charCodeAt(0);
-formula=((parseInt(ascii)-90-parseInt(offsetD))%26)+90;
+formula=((parseInt(ascii)-65-parseInt(offsetD))%26)+65;
 }
 
 
