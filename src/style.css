@@ -1,15 +1,45 @@
-img{
-    height: 5%;
-    width: 25%;
-    background-size: cover;
-    background: center;
+body {
+    /*background: repeating-linear-gradient(to right bottom, red 10px, orange 30px, yellow 50px, lime 70px, blue 90px, indigo 110px, violet 130px, magenta 150px, red 160px);
+   */
+   background-image: url("ciphermap.jpeg");
     background-attachment: fixed;
-    background-position: center;
-    background-position: bottom;
-}
-
-/*body{
-    background-image: url("portadaCypher.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  h1 {
+    background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 10%, rgba(255, 255, 255, .6) 90%, transparent 95%);
+    text-align: center;
+    padding: 0 10%;
+    
+    
+  }
+  h5 {
+    background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 10%, rgba(255, 255, 255, .6) 90%, transparent 95%);
+    text-align: center;
+    padding: 0 10%;
+  }
+  
+/*.content{
+    background-image: url("ciphermap");
+width: 100%;
+height: 600;
+background-size: cover;
+position: relative;
 }
+
+.content:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    position: relative;
+}
+  
+/*body{
+ background-image: url("ciphermap");
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ filter: blur(1);
+ background-blenmode: soft-light;
+}d-
