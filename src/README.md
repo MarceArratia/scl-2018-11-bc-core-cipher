@@ -6,40 +6,23 @@
 El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es un método de cifrado utilizado por el emperador romano Julio César, quien lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 
+## Descripcion:
+
+Obtener una frase ingresado por el usuario y devuelver el mismo mensaje, pero codificado según el  Cifrado César señalado anteriormente.
+
+Por ejemplo:
+
+    Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 
 
+## ¿Qué hace Mommy & Papi Code
 
-## 
+Mommy & Papi Code permite al usuario cifrar y descifrar frases,textos o párrafos para tener una dinámica de comunicación entretenida entre padres e hijos, podiendo jugar a encontrar objetos señalando asertijos,acontesimientos importantes, fechas históricas,etc. ocupando para esto el cuadro de ingreso de texto,y realizar operaciones matemáticas así como también fechas importantes,cumpleaños, edad de los integrantes de a familia,etc. ocupando el cuadro de nivel de desplazamiento,  generando al niño el primer contacto con la escritura en teclado y poder reforzar el aprendizaje numérico obtenido en aula y en el hogar.
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
+## Historia de usuario
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de ejemplo:
-
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
-
-
-## Consideraciones generales
-
-- Este proyecto se debe resolver de manera individual.
-- El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
-- Tiempo para completarlo: El proyecto dura 2 semanas, trabaja con sprints y planificando tus tareas.
-
-## Objetivos de aprendizaje
-
-En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
-
-- Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-- Permitir al usuario interactuar (**eventos del DOM**) y hacer algo cuando ocurran dichos eventos (cifrar/descifrar).
-- Manipular _**strings**_ (cadenas de texto).
-- Usar **control de flujo** (bucles, condicionales, ...).
-- Actualizar la pantalla con los resultados (**manipular el DOM**).
-- **Implementar funciones** dada una descripción de su comportamiento.
-- Verificar tu implementación con **pruebas unitarias**.
-- Entender las **necesidades del usuario** y cómo proponer una solución.
-- Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+En esta generación donde los niños
 
 ## Parte Obligatoria
 
