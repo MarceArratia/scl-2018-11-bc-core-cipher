@@ -1,6 +1,6 @@
-# Proyecto Mommy & Papi Code
+# Proyecto Mommy & Daddy Code
 
-![Julio](//documentos/laboratoria/scl-2018-11-bc-core-cipher/src/juliocesar.jpeg)
+![Julio](juliocesar.jpg)
 
 ### Basado en Cifrado César
 
@@ -19,19 +19,20 @@ Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 
-## ¿Qué hace Mommy & Papi Code?
-Un cuadro de ingreso de texto
-Un cuadro de ingreso desplazamiento
-**Mommy & Papi Code** es una es una entretenida plataforma online, que conecta a padres e hijos,por medio del cifrado y descifrado de textos, párrafos u operaciones matemáticas, generando un juego donde se puede encontrar objetos señalando pistas, acertijos, acontecimientos importantes, fechas históricas, etc. ocupando para esto el cuadro de ingreso de texto y realizar operaciones matemáticas así como también fechas importantes,cumpleaños, edad de los integrantes de a familia,etc. ocupando el cuadro de nivel de desplazamiento, generando al niño el primer contacto con la escritura en teclado y poder reforzar el aprendizaje numérico obtenido en aula y en el hogar.
+## ¿Qué hace Mommy & Daddy Code?
+
+![Julio](BrunoPinchudo.jpg)
+
+**Mommy & Daddy Code** es una es una entretenida plataforma online, que conecta a padres e hijos,por medio del cifrado y descifrado de textos, párrafos u operaciones matemáticas,que junto a **"Bruno Pinchudo"** generando un juego donde se puede encontrar objetos señalando pistas, acertijos, acontecimientos importantes, fechas históricas, etc. ocupando para esto el cuadro de ingreso de texto y realizar operaciones matemáticas así como también fechas importantes,cumpleaños, edad de los integrantes de a familia,etc. ocupando el cuadro de nivel de desplazamiento, generando al niño el primer contacto con la escritura en teclado y poder reforzar el aprendizaje numérico obtenido en aula y en el hogar.
 **Por ejemplo:**
 Llega la pascua de resurrección y deben esconderse los huevitos de chocolate que deja el Conejo de Pascua, para que los niños los encuentren dejamos una serie de pistas codificadas en textos y utilizando el nivel de desplazamiento la suma de alguna fecha histórica importante, o algún cumpleaños, adjuntando el enlace de nuestra página y así poder descifrar cada pista que se les va dejando, haciendo mas dinámico,entretenido y original de hallar los Huevos junto a Mommy & Papi Code.
 
 
-### ¿Qué resuelve Mommy & Papi Code?
+### ¿Qué resuelve Mommy & Daddy Code?
 
 Que los niños de los 7 años en adelante refuercen y estudien asignaturas que a veces son complejas para ellos, y que mejor que sea de una forma digital y entretenida.
 
-### Ejecución de Mommy & Papi Code
+### Ejecución de Mommy & Daddy Code
 
 Debes acceder al link :
 [M&P Code](fil:///home/laboratoriad313/Documentos/laboratoria/scl-2018-11-bc-core-cipher/src/index.html)
@@ -44,6 +45,9 @@ Debes acceder al link :
 
 
 ### Diseño 
+
+![](Croquis.jpg)
+
 
 #### Nombre
 
