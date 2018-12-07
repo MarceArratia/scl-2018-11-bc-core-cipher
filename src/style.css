@@ -6,6 +6,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
+
+
   h1 {
     background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 10%, rgba(255, 255, 255, .6) 90%, transparent 95%);
     text-align: center;
