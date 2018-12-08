@@ -69,7 +69,7 @@ Se buscó un diseño que semejara un mapa, así los usuarios pudieran ver en pri
 ### Pantalla
 
 Se diseño a base de una pantalla.
-Se colocó la imagen de un erizo de tierra que representa el aigo que acompañara a los niños mientras utilizan la página.
+Se colocó la imagen de un erizo de tierra que representa el amigo que acompañara a los niños mientras utilizan la página.
 Saludo y nombre
 Explicación 
 Un cuadro de ingreso de texto
