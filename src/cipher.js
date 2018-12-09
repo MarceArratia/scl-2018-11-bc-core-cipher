@@ -16,7 +16,9 @@ for(let i=0;i<strng.length;i++){
         ascii=strng[i].toUpperCase().charCodeAt(0);
         //transforma ascii a numero entero (parseInt)
         formula=((parseInt(ascii)-65+parseInt(offset))%26)+65;
+       
 
+      
     }
 
 //almacenar la letra en ascii
