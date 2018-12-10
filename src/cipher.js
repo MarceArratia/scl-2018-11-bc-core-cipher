@@ -11,9 +11,7 @@ for(let i=0;i<strng.length;i++){
     if(strng[i]=== "ñ" || strng[i] === "Ñ"){
         textoCodificado += strng[i]
       }
-      //while (offset < 0){
-        //offset = offset + 26
-      //}
+
   
     //cuando usuario clickea espacio, = asignar algo,== igual
     //evalua si no es un espacio
@@ -43,7 +41,11 @@ let textoCodificado="";
 for(let i=0;i<srngD.length;i++){
 
 let formula;
+if(srngD[i]=== "ñ" || srngD[i] === "Ñ"){
+    textoCodificado += srngD[i]
+  }else{
 
+  
 
 if(srngD[i].charCodeAt()==32){
     formula=32;
@@ -54,14 +56,11 @@ else{
 ascii=srngD[i].toUpperCase().charCodeAt(0);
 formula=((parseInt(ascii)-90-parseInt(offsetD))%26)+90;
 }
-
-
+}
 
 textoCodificado=textoCodificado+String.fromCharCode(formula);
     }
     return textoCodificado.toUpperCase();
-    
-
-
+ 
     }
    };
