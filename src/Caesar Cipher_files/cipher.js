@@ -7,17 +7,9 @@ let textoCodificado="";
 //bucle for para recorrer letras del texto una por una
 for(let i=0;i<strng.length;i++){
     let formula;
-    
-    if(strng[i]=== "ñ" || strng[i] === "Ñ"){
-        textoCodificado += strng[i]
-      }
-      //while (offset < 0){
-        //offset = offset + 26
-      //}
-  
     //cuando usuario clickea espacio, = asignar algo,== igual
     //evalua si no es un espacio
-    else if(strng[i].charCodeAt()==32){
+    if(strng[i].charCodeAt()==32){
         formula=32;
     }else{
          //si no es espacio es una letra por lo tanto codifica
@@ -26,7 +18,10 @@ for(let i=0;i<strng.length;i++){
         formula=((parseInt(ascii)-65+parseInt(offset))%26)+65;
     
     }
+
 //almacenar la letra en ascii
+
+
 
 textoCodificado=textoCodificado+String.fromCharCode(formula);
     }
