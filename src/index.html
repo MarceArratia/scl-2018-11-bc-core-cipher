@@ -35,13 +35,13 @@
                     <span class="input-group-text" id="basic-addon1">Seleccione nivel de Desplazamiento</span>
                   </div>
                   <!--pattern muestra solo lo que esta dentro de []-->
-                  <input type="number" pattern="[1-9]{1}" class="form-control" id="desplazamiento" placeholder="Nivel de codificación" aria-label="Username" aria-describedby="basic-addon1">
+                  <input type="number" class="form-control" id="desplazamiento" placeholder="Nivel de codificación" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
               
              
-               <!--class le da colores al boton (bootstrap),data-togle para decirle al boton que es un modal, data target nombre del modal que tiene que mostrar-->
-              <center><input type="submit"  class="btn btn-success" value="Codificar" onclick="codificar()" data-toggle="modal" data-target="#atenuanteC">
-               
+               <!--modal muestra resultado cod. y decod. class le da colores al boton (bootstrap),data-togle para decirle al boton que es un modal, data target nombre del modal que tiene que mostrar-->
+              <center><input type="button"  class="btn btn-success" value="Codificar" onclick="codificar()" data-toggle="modal" data-target="#atenuanteC">
+                
               <input type="button" class="btn btn-primary" value="Decodificar" onclick="decodificar()" data-toggle="modal" data-target="#atenuanteD"></center> <br>  
             </div>
           </div>
