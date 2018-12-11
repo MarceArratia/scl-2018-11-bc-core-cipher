@@ -44,8 +44,7 @@ let formula;
 if(srngD[i]=== "ñ" || srngD[i] === "Ñ"){
     textoCodificado += srngD[i]
   }else{
-
-  
+ 
 
 if(srngD[i].charCodeAt()==32){
     formula=32;
