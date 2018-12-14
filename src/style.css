@@ -1,20 +1,13 @@
 body {
-    /*background: repeating-linear-gradient(to right bottom, red 10px, orange 30px, yellow 50px, lime 70px, blue 90px, indigo 110px, violet 130px, magenta 150px, red 160px);
-   */
    background-image: url("ciphermapmom.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-
-
   h1 {
     background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 10%, rgba(255, 255, 255, .6) 90%, transparent 95%);
     text-align: center;
     padding: 0 15%;
-    
-    
   }
   h5 {
     background-image: linear-gradient(90deg, transparent 5%, rgba(255, 255, 255, .6) 15%, rgba(300, 255, 255, .6) 90%, transparent 95%);
@@ -26,22 +19,18 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-
-}
-  
+} 
 .content:before{
     content: "";
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     background-color: aqua;
     position: relative;
 }
-  
-/*body{
- background-image: url("ciphermap");
- background-size: cover;
- background-attachment: fixed;
- background-position: center;
- filter: blur(1);
- background-blenmode: soft-light;
-}d-
+  .video{
+    margin-left: auto;
+    margin-right: auto;  
+    width: 35%;
+    max-width: 800px;
+    height: 50%;
+ }

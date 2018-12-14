@@ -1,4 +1,4 @@
-/* Acá va tu código manejo del dom*/
+
 function codificar(){
    //guardar valor de cuadro que usuario digita
    let strng=document.getElementById('CuadroTexto').value;
@@ -19,7 +19,6 @@ function codificar(){
         paso=cipher.encode(strng,offset);
         document.getElementById('desplazamiento').value=offset;
       }
-     //    root.innerHTML = cipher.encode(texto,offset)
 
    //document.getElementById('divcodificado').style="display:block;float: center; ";
    document.getElementById('CuadroSalidaC').innerHTML=paso;
